@@ -20,7 +20,7 @@ namespace api.Tests.ServiceTests
         public void ImportTest()
         {
             // Given
-            string filePath = "C:/Users/Admin/Desktop/AntsZadani/api.Tests/ServiceTests/data.csv";
+            string filePath = "data.csv";
             var data = new List<string[]>
         {
             new string[] { "Jméno", "Příjmení", "RČ", "Adresa", "Telefon 1", "Telefon 2", "Telefon 3" },
